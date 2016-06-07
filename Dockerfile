@@ -1,5 +1,5 @@
 FROM centos:6
-MAINTAINER bobblun
+MAINTAINER rmkn
 RUN yum -y update
 RUN yum -y install httpd php php-mysql
 RUN curl -o /tmp/wordpress.tar.gz -SL https://ja.wordpress.org/latest-ja.tar.gz \
